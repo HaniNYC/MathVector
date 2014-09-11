@@ -1,0 +1,35 @@
+
+ReadMe :  VECXD project
+
+Description:
+-------------- 
+
+    This program resembles  a mathematical vector class, that preforms the following operations:
+1- Addition of two or more vectors of  same dimensions – if index doesn't match, it throw an error  .
+2- Subtraction of two or more vectors.
+3- Multiplication of two or more vectors.
+4-Assigning operation between two vectors, after adjusting the target vector index to the (rhs).
+5- Adding and assigning to a vector.
+6- It uses template, thus is valid for several types of data.
+
+Running Instruction:
+-------------------------
+A) If you use the included test file: 
+1-type   make : will run the makefile which will create executables for the included files after compiling any updated files, it will create two object files in the same directory.
+2-type   ./ run   : to run the program.
+
+B)If you are using a different test file:
+1-you will need to include both of “ VecXd.h” and “VecXd.cpp” to your test file.
+2-modify the makefile accordingly 
+
+Future Developments: will include,  / ,%, operations.
+------------------------
+
+Known Bugs:  None. Runs correctly on the attached test file, and has been test successfully with other test files
+---------------  
+
+Knowing Issues: Users should press “enter” after each entry to avoid passing too many arguments, the excess inputs may be copied from the buffer stream into to next entry and cause errors.
+-------------------
+
+Developed By: Hani Aboudeshisha, Hunter College, CSci335
+DATE: 9/17/2013
